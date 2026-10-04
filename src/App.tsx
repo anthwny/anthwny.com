@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import ANTHONY from './assets/ANTHONY.jpg'
+import tuff from './assets/tuff.jpeg'
 import linkedinLogo from './assets/linkedin.svg'
 import './App.css'
 
@@ -10,6 +11,7 @@ function App() {
     <>
       <section id="center">
           <img src={ANTHONY} className="base" width="170" height="179" alt="" />
+          <img src={tuff} className="base" width="170" height="179" alt="" />
         <div>
           <h1>Welcome to anthwny.com brother</h1>
           <p>
