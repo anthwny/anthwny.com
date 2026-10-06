@@ -2,6 +2,7 @@ import { useState } from 'react'
 import ANTHONY from './assets/ANTHONY.jpg'
 import tuff from './assets/tuff.jpeg'
 import BACKROOMS from './assets/backrooms-captain-clark.gif'
+import EXTREME_DEMON from './assets/extreme demon.jpg'
 import linkedinLogo from './assets/linkedin.svg'
 import './App.css'
 {/*
@@ -20,6 +21,7 @@ function App() {
           <img src={ANTHONY} className="base" width="170" height="179" alt="" />
           <img src={tuff} className="base" width="170" height="179" alt="" />
           <img src={BACKROOMS} className="base" width="170" height="179" alt="" />
+          <img src={EXTREME_DEMON} className="base" width="170" height="179" alt="" />
         </div>
         <div>
           <h1>Welcome to anthwny.com brother</h1>
