@@ -1,17 +1,25 @@
 import { useState } from 'react'
 import ANTHONY from './assets/ANTHONY.jpg'
 import tuff from './assets/tuff.jpeg'
+import BACKROOMS from './assets/backrooms-captain-clark.gif'
 import linkedinLogo from './assets/linkedin.svg'
 import './App.css'
+import Header from './components/Header/Header'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-      <section id="center">
+      {/*
+      <Header />
+        */}
+      <section id="image-container">
+        <div class="flex gap-4 justify-center items-center">
           <img src={ANTHONY} className="base" width="170" height="179" alt="" />
           <img src={tuff} className="base" width="170" height="179" alt="" />
+          <img src={BACKROOMS} className="base" width="170" height="179" alt="" />
+          </div>
         <div>
           <h1>Welcome to anthwny.com brother</h1>
           <p>
